@@ -1,0 +1,475 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#acceuil {
+    margin-top: 100px;
+    z-index: 0;
+    position: absolute;
+}
+
+/* Les fonds */
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+    font-size: 100%;
+}
+.fondnav {
+    height: 120px;
+    background-color: black;
+}
+.fond {
+    margin: auto;
+    max-width: 1780px;
+    height: 120px;
+    background-color: black;
+}
+/* Les fonds */
+
+/* Barre de Naviguation */
+#nav-mobile {
+  display: flex;
+  align-items: center;
+}
+.nav ul a {
+    margin-top: 30px;
+}
+
+.nav ul {
+    float: right;
+}
+
+.nav :not(img) {
+    margin-right: 1%;
+}
+ul a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 5%;
+    transition: all .5s;
+    }
+ul a:hover {
+    color: #4371e4;
+    transition: all .5s;
+    transform: scale(1.05);
+}
+.fond img {
+    width: 75px;
+    margin-top: 20px;
+    margin-left: 1%;
+}
+/* Barre de Naviguation */
+
+/* Sections */
+.fondi {
+    position: absolute;
+    background-attachment: fixed;
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../Pictures/Fond.png.png");
+    background-position: center;
+}
+.fondpara {
+    text-align: center;
+    max-width: 1500px;
+    height: auto;
+    position: relative;
+    margin: 250px auto;
+}
+.fond2 h1 {
+    color: white;
+    text-decoration: none;
+    font-size: 175px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* Sections */
+
+.fondparagraphe { 
+    margin: 500px auto;
+    max-width: 1500px;
+    height: 1000px;
+}
+
+
+/* Article Type 0*/
+.part1b h1 {
+    margin-top: 15%;
+    margin-left: 2% ;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 400%;
+}
+.part1b p {
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 5%;
+}
+.fondsectionfg { 
+    margin: auto;
+    max-width: 1500px;
+    height: 500px; 
+}
+.part1b {
+    float: left;
+    color: white;
+    width: 47%;
+    height: 100%;
+}
+.part2b {
+    margin-left: auto;
+    width: 50%;
+    height: 100%; 
+}        
+
+.part2b1 {
+    float: left;
+    height: 47%;
+    width: 40%;
+    background-image: url("../Pictures/galerie2.png");
+    background-size: cover;
+    background-position: center;
+}
+.part2b2 { 
+    margin-left: auto;
+    height: 47%;
+    width: 58%;
+    background-image: url('../Pictures/galerie3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.part2b3 {       
+    margin-top: 2%;
+    background-image: url("../Pictures/Fond.png.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 50%;
+}
+/* Article Type 0*/
+
+/* Article Type 1*/
+.part2a h1 {
+    color: white;
+    padding: 19% 0 0 2%;
+    margin-right: 2% ;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 400%;
+}
+.part2a p {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 2% 0 0 6%;
+    color: white;
+}
+.fondsection1 {
+    margin: 150px auto;
+    max-width: 1500px;
+    height: 500px; 
+}
+.part1a {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+.part2a {  
+    margin-left: auto;
+    max-width: 47%;
+    height: 100%;
+    text-align: left; 
+} 
+.part1b1 {
+    position: relative;
+    background-image: url("../Pictures/Fond.png.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 50%;
+}       
+.part1b2 {
+    margin-top: 2%;
+    float: left;
+    height: 47%;
+    width: 40%;
+    background: url("../Pictures/galerie5.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.part1b3 { 
+    margin-top: 2%;
+    margin-left: auto;
+    height: 47%;
+    width: 58%;
+    background-image: url("../Pictures/galerie1.png");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Article Type 1*/
+
+/* Formalité */
+.formalité {
+    width: 100%;
+    height: 300px;
+}
+.fondforma {
+    max-width: 1500px;
+    height: 300px;
+    margin: auto;
+}
+.règlement {
+    width: 30%;
+    height: 300px;
+    float: left;
+}
+.règlement h1 {
+    font-size: 400%;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+.règlement p {
+    padding: 0 5% 0 5%;
+    font-size: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+.inscription {
+    width: 40%;
+    height: 300px;
+    float: left;
+}
+.inscription h1 {
+    font-size: 400%;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;   
+}
+.inscription p {
+    padding: 0 5% 0 5%;
+    color: white;
+    font-size: 100%;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.donnation {
+    width: 30%;
+    height: 300px;
+    float: left;
+}
+.donnation h1 {
+    font-size: 400%;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+.donnation p {
+    padding: 0 5% 0 5%;
+    font-size: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+/* Formalité */
+
+/* Galerie */
+
+.fondgalerie h1 {
+    padding: 0 0 3% 0;
+    text-align: center;
+    font-size: 400%;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+.imagegalerie {
+    max-width: 1500px;
+    height: 1000px;
+    margin: auto;
+}
+
+.barre1 {
+    max-width: 1500px;
+    height: 20%;
+}
+.fondg1 {
+    float: left;
+    width: 30%;
+    height: 100%;
+    overflow: hidden;
+}
+.backfondg1 {
+    width: 100%;
+    height: 100%;
+    background-image: url("../Pictures/galerie1.png");
+    background-position: center;
+    background-size: cover;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.fondg1 .backfondg1:hover { 
+    -ms-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.);
+    transform: scale(1.1);
+    transition: .3s ease-in-out;
+}
+.fondg2 {
+    margin-left: auto;
+    width: 69%;
+    height: 100%;
+    overflow: hidden;
+}
+.backfondg2 {
+    width: 100%;
+    height: 100%;
+    background-image: url("../Pictures/galerie3.jpg");
+    background-position: center;
+    background-size: cover;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.fondg2 .backfondg2:hover { 
+    -ms-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.);
+    transform: scale(1.1);
+    transition: .3s ease-in-out;
+}
+.barre2 {
+    max-width: 1500px;
+    height: 80%;
+}
+.fondg3 {
+    margin-top: 1%;
+    float: left;
+    width: 65%;
+    height: 98%;
+    overflow: hidden;
+}
+.backfondg3 {
+    width: 100%;
+    height: 100%;
+    background-image: url("../Pictures/galerie2.png");
+    background-position: center;
+    background-size: cover;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.fondg3 .backfondg3:hover { 
+    -ms-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.);
+    transform: scale(1.1);
+    transition: .3s ease-in-out;
+}
+.fondg4  {
+    margin-top: 1%;
+    float: right;
+    margin-left: auto;
+    width: 34%;
+    height: 36%;
+    overflow: hidden;
+}
+.backfondg4 {
+    width: 100%;
+    height: 100%;
+    background-image: url("../Pictures/galerie4.jpg");
+    background-position: center;
+    background-size: cover;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.fondg4 .backfondg4:hover { 
+    -ms-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.);
+    transform: scale(1.1);
+    transition: .3s ease-in-out;
+}
+.fondg5 {
+    float: right;
+    margin-top: 1%;    
+    margin-left: auto;
+    width: 34%;
+    height: 60.2%;
+    overflow: hidden;
+}
+.backfondg5 {
+    width: 100%;
+    height: 100%;
+    background-image: url("../Pictures/galerie5.jpg");
+    background-position: center;
+    background-size: cover;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.fondg5 .backfondg5:hover { 
+    -ms-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: .3s ease-in-out;
+}
+ 
+/* Galerie */
+
+/* Footer */
+.piedpage {
+    width: 100%;
+    height: 300px;
+    background-color: #262626;
+}
+.fondfooter {
+    max-width: 1500px;
+    height: 300px;
+    margin: 300px auto 0;
+    background-color: aliceblue;
+}
+.crédits {
+    float: left;
+    width: 34%;
+    height: 150px;
+    background-color: rgb(41, 224, 41);
+
+}
+.réseau {
+    float: left;
+    width: 33%;
+    height: 150px;
+    background-color: rgb(66, 29, 168);
+
+}
+.dev {
+    text-align: left;
+    float: left;
+    width: 33%;
+    height: 150px;
+    background-color: rgb(236, 48, 189);
+
+}
+.bas {
+    float: inline-end;
+    width: 100%;
+    height: 150px;
+    background-color: red;
+}
+/* Footer */
+
